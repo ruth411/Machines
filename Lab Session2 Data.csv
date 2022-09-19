@@ -1,0 +1,138 @@
+Student,Report
+S1,"So based on the data, the first point what can be inferred is that daily there is some or the other price being recorded. For example on Jun 29 2021, the price was 2081.85/- . Like that from July 2020 to June 2021, the prices are been recorded. By this we can say that the prices are varying day by day and on some days, the price and profit are more whereas on some days the price is less and we get to see that the charge  is in negative values. The future prediction can be done by using the technique of regression and some mathematical formulas based on calculus, statistics, probability etc. Since the values of the price are not discrete, I took the Regression technique which falls under the supervised learning. "
+S2,I would suggest to make an application in which the user enters the current price and the date in the future in which he wants to predict the prize. And then we use the change percentage form these data and try to provide almost accurate results
+S3,"so what i observed is features in irctc data are highly correlated.
+the price and open are positively correlated with 0.98 and open vs high etc
+are also highly correlated , predicted results are also almost close to original values
+with root mean squared error or 16 (Pretty good actually),and coming to the Chg  feature
+i feel like doing normal regression on this small dataset is okay but when we have a 
+larger dataset from timestamp 1980s to 2020s in this case doing simple models doesn't make sense
+for predicting profit or loss , so when we have a larger timegap , it would be better to use 
+ Time Series  model like  Lstm , Gated recurrent unit  etc to predic profit or loss from past range
+of time series data and most of the data are in  1st  quartile if we compare histograms for prices,low,high etc
+and a few outliers are their"
+S4,"This can be solved with a Regression Machine Learning model by proper data
+analysis and error metrics."
+S5,"From the stock data provided to build a system that may be able to predict the price and Change   into future, we can  predict using the input output model .This model shows what flows of inputs must occur to obtain certain outputs .Also we can predict the future using life-cycle analysis. It is an analysis and forecasting of new product growth rate based on S-curves ."
+S6,"IRCTC Stock Price 
+So what i found is functions in irctc facts are extraordinarily correlated.
+the charge and open are undoubtedly correlated with 0.ninety eight and open vs excessive and so on
+also are extraordinarily correlated , anticipated outcomes also are nearly near authentic values
+with root imply squared blunders or 16 (Pretty proper actually),and coming to the Chg 
+i sense like doing everyday regression in this small dataset is ok however while we've a 
+large dataset from timestamp Nineteen Eighties to 2020s in this situation doing easy fashions would not make sense
+for predicting income or loss , so while we've a bigger timegap , it'd be higher to use 
+ Time Series  version like  Lstm , Gated recurrent unit  and so on to predic income or loss from beyond range
+of time collection facts and maximum of the facts are in  1st  quartile if we examine histograms for prices,low,excessive and so on and some outliers are their"
+S7,"The loss probability is showing close to 50 , thus if developing a model for these kind of data, the model should have appropriate error reducing methods and outlier removing. 
+If considering only this amount of data for analysis , simple ML models would be sufficient."
+S8,"1.In the first problem we were able to find out the dimensionality of the matrix,rank of the matrix and then psuedo inverse matrix and the unknown vector.Used numpy and Pandas for this problem.
+2. In the second problem we were able to find out the mean of selected conditions in the data set.And also was able to find the loss and profits of the given dataset.used pandas and statistics for this problem."
+S9,"okay so basically using numpy,we could solve this stocks problems.
+so in the first we found out the mean and varriance. Tho the data was huge in size,
+using numpy,we could use 2 to 3 lins,to get the mean and varriance.we calculated the sample 
+mean for different months like april etc.
+The mean which we initially found out was 1560.6634 and the variance was 58732.365
+and specifically for wednesday, the mean was 1550.7060.
+next we found out the mean for the month of april which was 1698.9526.
+And we found out the total loss to be 124."
+S10,Machine learning enables us to build a system that can predict the price and Change percentage. Trend projections are useful for predicting the price change in future. Regression helps us to relate sales to an equation
+S11,"From the stock,I see that almost all the values under each sections are very close or nearby. So to make things better,we need to look at the comparative analysis factors like mean,median of previous years and work according to the profits and loss and try to improve the corner in which theirs lack of improvement and change  or improve chg "
+S12,"The loss probability is showing close to 50 , thus if developing a model for these kind of data, the model should have appropriate error reducing methods and outlier removing. 
+If considering only this amount of data for analysis , simple ML models would be sufficient."
+S13,"After observing the daily trend of change percentage based on, he given day we can arrived a model to predict the expected profit on a given day base on the last month mean and variance of percentage profits on the week day of previous month data"
+S14,Machine learning helps us to build a system that may be able to predict the price and Change percentage into future. trend projections helps us to predict the price change in future regression helps us to relate sales to an equation 
+S15,"I have observed that, the values are closely related. So to make things better,we need to look at the comparative analysis factors like mean,median of previous years and work according to the profits and loss and try to improve the corner in which theirs lack of improvement and change  or improve chg  ."
+S16,"To build a system that is capable of predicting the Price and Change   into the future, we need to have a function that can understand the way the trends of the same data have changed over the past and apply the same to predict a specific value
+into the future."
+S17,"We are given Price and Change  for every month in the year 2020 on Monday, Tuesday, Wednesday, Thursday and Friday of every week. So, on this small amount of data we can apply regression to predict the price and change  in future."
+S18,"Usually its difficult to predict stock prices by observing past pricing history.It might increase or decrease gradually.
+But,few investors look at past history's pricing and use it for future investements.
+According to my observation,using population mean can predict nearby pricing.It wouldnt be same stock price in future,but it might help us to get a rough figure of pricing."
+S19,"sry sir, i dont know how to suggest a sytem or predict the price 
+ but i can tell that this amount of data for analysis , simple ML models would be sufficient.
+ but i dont have any experience of any those"
+S20,"
+Suggestions to build a system that may be able to predict the price and Change  into future 
+This is not a large amount of data.this is a small sample.so our results maybe not as accurate 
+and precise to apply to future predictions.anyways,we can apply regression techniques
+to get some insights from the given data and future predictions also.."
+S21,"After Analysing, irctc stocks I thought it’s better to use mulyiple regression for better prediction.
+I found that functions in irctc facts are extraordinarily correlated.
+The prediction of chg  depends on all other attributes."
+S22,we can apply REGRESSION
+S23,"So for that first I imported the dataset and then I check whether good 
+dataset or bad dataset by checking for nullable or NAN values and then I
+split my dataset with test_split_data , so then by linear regression I fit the 
+model by X_train and Y_train by then the model would able to predict the 
+price where X contains the high correlation columns excluding the labelled
+data column Price , Y contains the Lable data priceafter I predict y values for X_test , then after I can evaluate my model based 
+on error prediction based on Y_test as I already know this before 
+So this is how we can predict the Stock Prices with 
+Machine Learning by implementing the Linear 
+Regression Model"
+S24,"So for that first I imported the dataset and then I check whether good dataset or bad dataset by checking for nullable or NAN values and then I split my dataset with test_split_data , so then by linear regression I fit the 
+model by X_train and Y_train by then the model would able to predict the 
+price where X contains the high correlation columns excluding the labelled
+data column Price , Y contains the Lable data priceafter I predict y values for X_test , then after I can evaluate my model based 
+on error prediction based on Y_test as I already know this before 
+So this is how we can predict the Stock Prices with 
+Machine Learning by implementing the Linear 
+Regression Model"
+S25,"From the stock I see that almost all the values under each section are very close or nearby. So to make the things better , its better to look at the comparative analysis factors like mean, median of previous years and work according to the profits and loss and try to improve the corner in which theirs lack of improvent and change /improve chg ."
+S26," i observed that the features in irctc data are highly correlated.
+the price and open are positively correlated with 0.98 and predicted results are also  close to original values"
+S27,"A1  
+I have solved the problems and I found that it is easy to find the pseudo-inverse of the matrix using python function. Also came to know that rank(A)<min(m,n) such that the rank of the matrix in the given problem is  3  . 
+
+A2 
+It was a little difficult to find results of the data without knowing the functions available in python.
+
+On observing the data  I found that it would be helpfull for future predictions of the stock on how it opens and closes and change in percentage of loss or profit. "
+S28,"“IRCTC Stock Price  
+
+so what i observed is features in irctc data are highly correlated.
+the price and open are positively correlated with 0.98 and open vs high etc
+are also highly correlated , predicted results are also almost close to original values
+with root mean squared error or 16 (Pretty good actually),and coming to the Chg  feature
+i feel like doing normal regression on this small dataset is okay but when we have a 
+larger dataset from timestamp 1980s to 2020s in this case doing simple models doesn't make sense
+for predicting profit or loss , so when we have a larger timegap , it would be better to use 
+ Time Series  model like  Lstm , Gated recurrent unit  etc to predic profit or loss from past range
+of time series data and most of the data are in  1st  quartile if we compare histograms for prices,low,high etc
+and a few outliers are their"
+S29,"IRCTC Stock Price 
+So what i found is functions in irctc facts are extraordinarily correlated.
+the charge and open are undoubtedly correlated with 0.ninety eight and open vs excessive and so on
+also are extraordinarily correlated , anticipated outcomes also are nearly near authentic values
+with root imply squared blunders or 16 (Pretty proper actually),and coming to the Chg􀳦ature
+i sense like doing everyday regression in this small dataset is ok however while we've a
+large dataset from timestamp Nineteen Eighties to 2020s in this situation doing easy fashions would not make sense
+for predicting income or loss , so while we've a bigger timegap , it'd be higher to use
+ Time Series  version like  Lstm , Gated recurrent unit  and so on to predic income or loss from beyond range
+of time collection facts and maximum of the facts are in  1st  quartile if we examine histograms for prices,low,excessive and so on
+and some outliers are their"
+S30,"From the stock data set, I realized that most values given are pretty close to one another. To get a better idea about this data we use comparative analysis like mean and variance.We also compared the data to the past range of time series and obtained graphs which make understanding data a lot easier. With the help of the above comparisons of both losses and profits, we get an idea on the areas of improvement and also the chg  which describes this."
+S31,"The loss probability is showing close to 50 , thus if developing a model for these kind of data, the model should have appropriate error reducing methods and outlier removing. 
+If considering only this amount of data for analysis , simple ML models would be sufficient."
+S32,"From the above information I understand that variance of the price is very high that means the values of that data is widely seperated that means having long range from the mean whereas the chg  has the the value less that means the values arte closer to eachother/mean
+So from this I conclude that its better to multiple regression by taking multiple variables to predict
+The values of the future data from available data.then we get the nearest value when we predicted."
+S33," From the stock I see that almost all the values under each section are very close.
+Its better to look at the factors like mean, median of previous years and work according to the 
+profits and loss and try to improve the corner in which their will be a lack of improvent and change  ."
+S34,"IRCTC Stock Price 
+so, what I observed is features in irctc data are highly correlated.
+The price and open are positively correlated with 0.98 and open vs high etc, are also highly correlated, predicted results are also almost close to original values.
+with root mean squared error or 16 (Pretty good actually), and coming to the Chg  feature, i feel like doing normal regression on this small dataset is okay but when we have a larger dataset from timestamp 1980s to 2020s in this case doing simple models doesn't make sense for predicting profit or loss, so when we have a larger time gap, it would be better to use.
+ Time Series  model like  Lstm , Gated recurrent unit  etc, to predict profit or loss from past range of time series data and most of the data are in  1st  quartile if we compare histograms for prices, low, high etc, and a few outliers are there."
+S35,"The loss probability is showing close to 50 , thus if developing a model for these kind of data, the model should have appropriate error reducing methods and outlier removing. 
+If considering only this amount of data for analysis , simple ML models would be sufficient."
+S36,we can apply REGRESSION
+S37,"“IRCTC Stock Price  
+so what i observed is features in irctc data are highly correlated.
+the price and open are positively correlated with 0.98 and open vs high etc
+with root mean squared error or 16 (Pretty good actually),and coming to the Chg  feature
+i feel like doing normal regression on this small dataset is okay but when we have a 
+for predicting profit or loss , so when we have a larger timegap , it would be better to use 
+From the stock I see that almost all the values under each section are very close or nearby. So to make the things better , its better to look at the comparative analysis factors like mean, median of previous years and work according to the profits and loss and try to improve the corner in which theirs lack of improvent and change /improve chg ."
